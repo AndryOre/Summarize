@@ -1,0 +1,28 @@
+{
+	"name": "Summarize",
+	"version": "0.1.0",
+	"description": "Discord bot to summarize messages in a channel",
+	"main": "src/index.js",
+	"scripts": {
+		"install:dev": "pnpm i",
+		"start:dev": "nodemon src/index.js",
+		"start": "node ."
+	},
+	"keywords": [],
+	"author": "AETERNUS#9050",
+	"engines": {
+		"node": ">=16.9.0"
+	},
+	"dependencies": {
+		"discord.js": "^14.7.1",
+		"discord.js-v14-helper": "^1.11.4",
+		"dotenv": "^16.0.3",
+		"mongoose": "^7.0.1",
+		"ms": "^2.1.3",
+		"openai": "^3.2.1"
+	},
+	"devDependencies": {
+		"eslint": "^8.35.0",
+		"eslint-plugin-prettier": "^4.2.1"
+	}
+}
